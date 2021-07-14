@@ -1,5 +1,5 @@
 .header {
-    position: absolute;
+    
 width: 1600px;
 height: 80px;
 left: 0px;
@@ -9,7 +9,7 @@ background: #FFFFFF;
 }
 
 .header-logo {
-    position: absolute;
+    
 width: 145px;
 height: 31px;
 left: 215px;
@@ -32,12 +32,12 @@ color: #212121 ;
 }
 .nav-menu {
     display: flex;
-    position: absolute;
+    
     color: #212121;
 }
 
 .nav-link-first {
-    position: absolute;
+    
     width: 49px;
     height: 16px;
     left: 453px;
@@ -59,7 +59,7 @@ color: #212121;
 }
 
 .nav-link-second {
-    position: absolute;
+    
 width: 77px;
 height: 16px;
 left: 552px;
@@ -82,7 +82,7 @@ color: #212121;
 }
 
 .nav-link-third {
-    position: absolute;
+    
 width: 68px;
 height: 16px;
 left: 679px;
@@ -105,7 +105,7 @@ color: #212121;
 }
 
 .header-mail {
-    position: absolute;
+    
 width: 135px;
 height: 16px;
 left: 1078px;
@@ -127,7 +127,7 @@ color: #757575;
 }
 
 .header-contact {
-    position: absolute;
+    
 width: 122px;
 height: 16px;
 left: 1263px;
@@ -150,7 +150,7 @@ color: #757575;
 }
 
 .hero-background {
-    position: absolute;
+    
 width: 1600px;
 height: 600px;
 left: 0px;
@@ -161,7 +161,7 @@ background: #2F303A;
 }
 
 .main-title {
-    position: absolute;
+    
 width: 696px;
 height: 120px;
 left: 452px;
@@ -182,7 +182,7 @@ color: #FFFFFF;
 }
 
 .features {
-    position: absolute;
+    
     width: 1170px;
     height: 101px;
     left: 215px;
@@ -191,7 +191,7 @@ color: #FFFFFF;
 }
 
 .occupation {
-    position: absolute;
+    
 width: 1170px;
 height: 386px;
 left: 215px;
@@ -200,7 +200,7 @@ top: 969px;
 }
 
 .order-btn {
-    position: absolute;
+    
 left: 700px;
 top: 430px;
 
@@ -250,7 +250,7 @@ color: #757575;
 }
 
 .first-section-name {
-    position: absolute;
+    
 width: 376px;
 height: 42px;
 left: 612px;
@@ -269,7 +269,7 @@ color: #212121;
 }
 
 .sec-section-name {
-    position: absolute;
+    
 width: 264px;
 height: 42px;
 left: 668px;
@@ -319,7 +319,7 @@ color: #757575;
 }
 
 .bot-section {
-    position: absolute;
+    
 width: 1600px;
 height: 648px;
 left: 0px;
@@ -329,7 +329,7 @@ background: #F5F4FA;
 }
 
 .footer {
-    position: absolute;
+    
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -339,7 +339,7 @@ background: #2F303A;
 }
 
 .footer-logo {
-    position: absolute;
+    
 width: 145px;
 height: 31px;
 left: 215px;
@@ -357,8 +357,12 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 
+.footer-logo>span {
+    color: #212121;
+}
+
 .footer-address {
-    position: absolute;
+    
 width: 231px;
 height: 21px;
 left: 215px;
@@ -377,7 +381,7 @@ color: #FFFFFF;
 }
 
 .footer-mail {
-    position: absolute;
+    
 width: 231px;
 height: 21px;
 left: 215px;
@@ -397,7 +401,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact {
-    position: absolute;
+    
 width: 231px;
 height: 21px;
 left: 215px;
@@ -416,7 +420,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio {
-    position: absolute;
+    
     width: 1170px;
     height: 1360px;
     left: 215px;
@@ -488,7 +492,7 @@ color: #757575;
 }
 
 .footer-portfolio {
-    position: absolute;
+    
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -498,7 +502,7 @@ background: #2F303A;
 }
 
 .footer-logo-portfolio {
-    position: absolute;
+    
 width: 145px;
 height: 31px;
 left: 215px;
@@ -509,15 +513,19 @@ font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
 color: #2196F3;
 }
 
+.footer-logo-portfolio>span {
+    color:#212121;
+}
+
 .footer-address-portfolio {
-    position: absolute;
+    
 width: 231px;
 height: 21px;
 left: 215px;
@@ -528,7 +536,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
@@ -536,7 +544,7 @@ color: #FFFFFF;
 }
 
 .footer-mail-portfolio {
-    position: absolute;
+    
 width: 231px;
 height: 21px;
 left: 215px;
@@ -547,8 +555,23 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-portfolio {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
 }
