@@ -1,20 +1,10 @@
 .header {
-    
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
 
-background: #FFFFFF;
+    background: #FFFFFF;
 }
 
 .header-logo {
     
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
@@ -38,11 +28,6 @@ color: #212121 ;
 
 .nav-link-first {
     
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -59,11 +44,6 @@ color: #212121;
 }
 
 .nav-link-second {
-    
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
 
 font-family: Roboto;
 font-style: normal;
@@ -82,11 +62,6 @@ color: #212121;
 }
 
 .nav-link-third {
-    
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
 
 font-family: Roboto;
 font-style: normal;
@@ -105,11 +80,6 @@ color: #212121;
 }
 
 .header-mail {
-    
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
 
 font-family: Roboto;
 font-style: normal;
@@ -127,11 +97,6 @@ color: #757575;
 }
 
 .header-contact {
-    
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
 
 font-family: Roboto;
 font-style: normal;
@@ -150,22 +115,11 @@ color: #757575;
 }
 
 .hero-background {
-    
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-margin-top: 80px;
 
 background: #2F303A;
 }
 
 .main-title {
-    
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
 
 font-family: Roboto;
 font-style: normal;
@@ -200,9 +154,6 @@ top: 969px;
 }
 
 .order-btn {
-    
-left: 700px;
-top: 430px;
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -250,11 +201,6 @@ color: #757575;
 }
 
 .first-section-name {
-    
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
 
 font-family: Roboto;
 font-style: normal;
@@ -269,11 +215,6 @@ color: #212121;
 }
 
 .sec-section-name {
-    
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
 
 font-family: Roboto;
 font-style: normal;
@@ -329,21 +270,11 @@ background: #F5F4FA;
 }
 
 .footer {
-    
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
 
 background: #2F303A;
 }
 
 .footer-logo {
-    
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
 
 font-family: Raleway;
 font-style: normal;
@@ -358,15 +289,10 @@ color: #2196F3;
 }
 
 .footer-logo>span {
-    color: #212121;
+    color: #ffffff;
 }
 
 .footer-address {
-    
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
 
 font-family: Roboto;
 font-style: normal;
@@ -380,12 +306,11 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
+.footer-address:hover {
+    color: #2196F3;
+}
+
 .footer-mail {
-    
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2238px;
 
 font-family: Roboto;
 font-style: normal;
@@ -398,14 +323,13 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 
+}
+
+.footer-mail:hover {
+    color: #2196F3;
 }
 
 .footer-contact {
-    
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
 
 font-family: Roboto;
 font-style: normal;
@@ -418,7 +342,9 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-contact:hover {
+    color: #2196F3;
+}
 .portfolio {
     
     width: 1170px;
@@ -502,11 +428,6 @@ background: #2F303A;
 }
 
 .footer-logo-portfolio {
-    
-width: 145px;
-height: 31px;
-left: 215px;
-top: 1688px;
 
 font-family: Raleway;
 font-style: normal;
@@ -525,11 +446,6 @@ color: #2196F3;
 }
 
 .footer-address-portfolio {
-    
-width: 231px;
-height: 21px;
-left: 215px;
-top: 1739px;
 
 font-family: Roboto;
 font-style: normal;
@@ -542,13 +458,11 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 }
+.footer-address-portfolio:hover {
+color: #2196F3;
+}
 
 .footer-mail-portfolio {
-    
-width: 231px;
-height: 21px;
-left: 215px;
-top: 1769px;
 
 font-family: Roboto;
 font-style: normal;
@@ -562,11 +476,11 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-mail-portfolio:hover {
+color: #2196F3;
+}
+
 .footer-contact-portfolio {
-width: 231px;
-height: 21px;
-left: 215px;
-top: 1799px;
 
     font-family: Roboto;
 font-style: normal;
@@ -578,4 +492,8 @@ text-decoration: none;
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-portfolio:hover {
+    color: #2196F3;  
 }
