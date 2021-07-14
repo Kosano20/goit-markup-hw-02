@@ -415,19 +415,6 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
-.btn-nav {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    justify-content: flex-start;    
-    text-align: center;
-    letter-spacing: 0.03em;
-background: #F5F4FA;
-border-radius: 4px;
-}
-
 .portfolio {
     position: absolute;
     width: 1170px;
@@ -452,7 +439,7 @@ border-radius: 4px;
 }
 
 .portfolio-btn {
-background: #2196F3;
+background: #F5F4FA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
@@ -468,7 +455,36 @@ text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
 
-color: #FFFFFF;
+color: #212121;
+}
+
+.portfolio-btn:hover {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.portfolio-item {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.portfolio-item-description {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+letter-spacing: 0.03em;
+
+color: #757575;
 }
 
 .footer-portfolio {
