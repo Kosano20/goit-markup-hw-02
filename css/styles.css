@@ -27,6 +27,9 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 
+.header-logo > span {
+color: #212121 ;
+}
 .nav-menu {
     display: flex;
     position: absolute;
