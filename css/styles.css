@@ -20,6 +20,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
@@ -29,7 +30,7 @@ color: #2196F3;
 .nav-menu {
     display: flex;
     position: absolute;
-color: #212121;
+    color: #212121;
 }
 
 .nav-link-first {
@@ -45,6 +46,7 @@ color: #212121;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    text-decoration: none;
     
 color: #212121;
 }
@@ -66,6 +68,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+text-decoration: none;
 
 color: #212121;
 }
@@ -88,6 +91,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+text-decoration: none;
 
 color: #212121;
 }
@@ -110,6 +114,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+text-decoration: none;
 
 color: #757575;
 }
@@ -131,6 +136,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+text-decoration: none;
 
 color: #757575;
 }
@@ -222,6 +228,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 
 color: #212121;
 }
@@ -232,7 +239,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
@@ -253,6 +260,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: #212121;
 }
@@ -271,6 +279,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: #212121;
 }
@@ -284,6 +293,7 @@ line-height: 19px;
 
 text-align: center;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: #212121;
 }
@@ -301,7 +311,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-img {
+.img {
     display: block;
 }
 
@@ -337,6 +347,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
@@ -355,7 +366,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
@@ -374,7 +385,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
@@ -394,7 +405,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+text-decoration: none;
 
 letter-spacing: 0.03em;
 
