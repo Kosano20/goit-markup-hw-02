@@ -5,6 +5,7 @@
     --white: #FFFFFF;
     --dark-gray: #2F303A;
     --whitesmoke: #F5F4FA;
+    --whitegray: rgba(255, 255, 255, 0.6);
 }
 
 .header {
@@ -39,7 +40,7 @@ color: var(--blue);
 .nav-menu {
     display: flex;
     
-    color: var(--black);
+    color: var(--black );
 }
 
 .nav-link-first {
@@ -352,7 +353,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white);
+color: var(--whitegray);
 
 }
 
@@ -371,7 +372,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white);
+color: var(--whitegray);
 }
 .footer-contact:hover {
     color: var(--blue);
@@ -488,7 +489,7 @@ color: var(--blue);
 }
 
 .footer-logo-portfolio>span {
-    color: var(--black)
+    color: var(--white)
 }
 
 .footer-address-portfolio {
@@ -519,7 +520,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white);
+color: var(--whitegray);
 }
 
 .footer-mail-portfolio:hover {
@@ -537,7 +538,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white);
+color: var(--whitegray);
 }
 
 .footer-contact-portfolio:hover {
