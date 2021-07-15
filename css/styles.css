@@ -160,9 +160,9 @@ color: var(--white);
 
 .order-btn {
 
-    background: var(--blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /*background: var(--blue);
+    box-shadow: 0px 4px 4px #00000026;
+    border-radius: 4px;*/
     
     font-family: Roboto;
     font-style: normal;
@@ -170,15 +170,15 @@ color: var(--white);
     font-size: 16px;
     line-height: 1.5;
     
-    display: flex;
+    /*display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em;*/
     cursor: pointer;
     
     color: var(--white);
     }    
-
+/*
 .features {
     
     width: 1170px;
@@ -186,7 +186,7 @@ color: var(--white);
     left: 215px;
     top: 774px;
     display: flex;    
-}
+}*/
 
 .description-title {
     font-family: Roboto;
@@ -214,14 +214,14 @@ letter-spacing: 0.03em;
 color: var(--gray);
 }
 
-.occupation {
+/*.occupation {
     
     width: 1170px;
     height: 386px;
     left: 215px;
     top: 969px;
     
-    }
+    }*/
     
 .first-section-name {
 
@@ -245,10 +245,10 @@ color: var(--black);
 
 .bot-section {
     
-    width: 1600px;
+    /*width: 1600px;
     height: 648px;
     left: 0px;
-    top: 1449px;
+    top: 1449px;*/
     
     background: var(--whitesmoke);
     }
@@ -376,7 +376,8 @@ color: var(--white)99;
 .footer-contact:hover {
     color: var(--blue);
 }
-.portfolio {
+
+/*.portfolio {
     
     width: 1170px;
     height: 1360px;
@@ -386,7 +387,7 @@ color: var(--white)99;
     flex-direction: row;
     justify-content: flex-start;
     
-}
+}*/
 
 .portfolio-name {
     position: absolute !important;
@@ -401,8 +402,8 @@ color: var(--white)99;
 
 .portfolio-btn {
 background: var(--whitesmoke);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+/*box-shadow: 0px 4px 4px #00000026;
+border-radius: 4px;*/
 
 font-family: Roboto;
 font-style: normal;
@@ -410,10 +411,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 
-display: flex;
+/*display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.06em;
+letter-spacing: 0.06em;*/
 cursor: pointer;
 
 color: var(--black);
@@ -464,10 +465,10 @@ color: var(--gray);
 
 .footer-portfolio {
     
-width: 1600px;
+/*width: 1600px;
 height: 252px;
 left: 0px;
-top: 1628px;
+top: 1628px;*/
 
 background: var(--dark-gray);
 }
