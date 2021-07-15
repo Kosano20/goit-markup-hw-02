@@ -352,7 +352,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white)99;
+color: var(--white);
 
 }
 
@@ -371,7 +371,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white)99;
+color: var(--white);
 }
 .footer-contact:hover {
     color: var(--blue);
@@ -519,7 +519,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white)99;
+color: var(--white);
 }
 
 .footer-mail-portfolio:hover {
@@ -537,7 +537,7 @@ text-decoration: none;
 
 letter-spacing: 0.03em;
 
-color: var(--white)99;
+color: var(--white);
 }
 
 .footer-contact-portfolio:hover {
